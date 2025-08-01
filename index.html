@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .input_wrapper{
+            position: relative;
+            width: 30%;
+        }
+        input{
+            width: 100%;
+            padding-right: 40px;
+            height: 40px;
+            font-size: 16px;
+        }
+        .eye-icon{
+            position: absolute;
+            right: 0px;
+            top: 30%;
+            height: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+<div class="input_wrapper">
+    <input type="password" placeholder="Enter password" class="input" id="password">
+    <img src="/eyeclose.png" alt="" onclick="handleClick()" class="eye-icon" id="eye">
+
+</div>
+    <script src="/index.js"></script>
+</body>
+</html>
